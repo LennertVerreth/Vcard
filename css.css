@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 280px;
+  background-image: url(beautiful-calm-clouds.jpg);
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  width: 400px;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.content1 {
+  position: absolute;
+  top: 30px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 2px solid pink;
+}
+
+.content2 {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 2px solid pink;
+}
+
+.footer {
+  position: absolute;
+  top: 230px;
+  width: 400px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid green;
+
+}
